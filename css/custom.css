@@ -1,0 +1,41 @@
+
+.probootstrap-section.projects  {
+    background: linear-gradient(74deg,deepskyblue,darkviolet,blue);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+.probootstrap-footer {
+    padding: 2em 0 !important;
+}
+
+/* section.probootstrap-section {
+  margin-top: 20px !important;
+}
+
+.probootstrap-section {
+  padding: 0 !important;
+  position: relative;
+  z-index: 2;
+} */
+
+section.probootstrap-section.profiles {
+  padding: 0 !important;
+}
+
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+
